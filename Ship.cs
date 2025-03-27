@@ -38,6 +38,6 @@
 
     public override string ToString()
     {
-        return Name + ": Kontenery " + _containers.Count + "/" + MaxContainers + ", Ładunek: " + GetTotalWeight() + "/" + MaxWeight + " kg" + ", Prędkość maksymalna: " + MaxSpeed + " węzłów";
+        return Name + ": Kontenery " + _containers.Count + "/" + MaxContainers + ", Ladunek: " + GetTotalWeight() + "/" + MaxWeight + " kg" + ", Predkosc maksymalna: " + MaxSpeed + " wezlow";
     }
 }
