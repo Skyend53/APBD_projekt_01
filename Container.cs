@@ -42,5 +42,5 @@ public abstract class Container
         LoadMass = mass;
     }
 
-    public override string ToString() => SerialNumber + " - Załadunek: " + LoadMass + "/" + Capacity + " kg, Wysokość: " + Height + " cm, Waga: " + Weight + " kg, Głębokość: " + Depth + " cm";
+    public override string ToString() => SerialNumber + " - Zaladunek: " + LoadMass + "/" + Capacity + " kg, Wysokosc: " + Height + " cm, Waga: " + Weight + " kg, Glebokosc: " + Depth + " cm";
 }
